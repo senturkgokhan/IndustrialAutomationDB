@@ -97,6 +97,9 @@
 
 ## E-R DİYAGRAMI
 
-![E-R Diyagramı](images/E-R.png)
+![E-R Diyagramı](https://github.com/user-attachments/assets/fa424965-6fb5-4f14-b880-a62683fe087a)
+
+
+
 
 
