@@ -13,7 +13,7 @@
 
 ### 1. Cihaz Yönetimi
 
-Tablo 2’de yer alan Chazlar ve ilgili diğer tablolara dayanarak, cihazların yönetimi için kullanıcıların ihtiyaç duyduğu yetkiler tanımlanmıştır.
+Cihazlar ve ilgili diğer tablolara dayanarak, cihazların yönetimi için kullanıcıların ihtiyaç duyduğu yetkiler tanımlanmıştır.
 
 #### 1.1 Cihaz Listesi Görüntüleme
 
@@ -28,7 +28,7 @@ Tablo 2’de yer alan Chazlar ve ilgili diğer tablolara dayanarak, cihazların 
 
 ### 2. Donanım ve Yazılım Yetenekleri
 
-Tablo 2’de belirtilen cihazların yazılım fonksiyonları, donanım bileşenleri ve programlama yetenekleri göz önüne alınarak kullanıcılar için gereksinimler belirlenmiştir.
+Belirtilen cihazların yazılım fonksiyonları, donanım bileşenleri ve programlama yetenekleri göz önüne alınarak kullanıcılar için gereksinimler belirlenmiştir.
 
 #### 2.1 Donanım Yetenekleri
 
@@ -43,7 +43,7 @@ Tablo 2’de belirtilen cihazların yazılım fonksiyonları, donanım bileşenl
 
 ### 3. Haberleşme Protokolleri ve Portları
 
-Tablo 2’de yer alan cihazların haberleşme protokolleri ve bağlantı portlarına dair gereksinimler kullanıcı gruplarına göre belirlenmiştir.
+Cihazların haberleşme protokolleri ve bağlantı portlarına dair gereksinimler kullanıcı gruplarına göre belirlenmiştir.
 
 #### 3.1 Protokoller
 
@@ -73,7 +73,7 @@ Cihazların çalışma ortamı ve güç yönetimi ile ilgili tablolar, bu başl�
 
 ### 5. Garanti ve Sertifikalar
 
-Tablo 2’de yer alan Garanti Bilgileri ve Sertifika tablolarına dayalı olarak, cihazların garanti süreçleri ve sertifikasyon bilgileri yönetilmelidir.
+Garanti Bilgileri ve Sertifika tablolarına dayalı olarak, cihazların garanti süreçleri ve sertifikasyon bilgileri yönetilmelidir.
 
 #### 5.1 Garanti Yönetimi
 
