@@ -103,6 +103,6 @@ Cihazların test süreçleri ve donanım/yazılım yükseltmeleri, proje gereksi
 
 ## E-R DİYAGRAMI
 
-![E-R Diyagramı](images/e-r.jpeg)
-![E-R Diyagramı](images/e-r2.jpeg)
+![E-R Diyagramı](images/e-r3.png)
+
 
