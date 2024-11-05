@@ -13,7 +13,6 @@
 
 ### 1. Cihaz Yönetimi
 
-Cihazlar ve ilgili diğer tablolara dayanarak, cihazların yönetimi için kullanıcıların ihtiyaç duyduğu yetkiler tanımlanmıştır.
 
 #### 1.1 Cihaz Listesi Görüntüleme
 
@@ -28,7 +27,6 @@ Cihazlar ve ilgili diğer tablolara dayanarak, cihazların yönetimi için kulla
 
 ### 2. Donanım ve Yazılım Yetenekleri
 
-Belirtilen cihazların yazılım fonksiyonları, donanım bileşenleri ve programlama yetenekleri göz önüne alınarak kullanıcılar için gereksinimler belirlenmiştir.
 
 #### 2.1 Donanım Yetenekleri
 
@@ -43,7 +41,6 @@ Belirtilen cihazların yazılım fonksiyonları, donanım bileşenleri ve progra
 
 ### 3. Haberleşme Protokolleri ve Portları
 
-Cihazların haberleşme protokolleri ve bağlantı portlarına dair gereksinimler kullanıcı gruplarına göre belirlenmiştir.
 
 #### 3.1 Protokoller
 
@@ -58,7 +55,6 @@ Cihazların haberleşme protokolleri ve bağlantı portlarına dair gereksinimle
 
 ### 4. Çevresel Koşullar ve Güç Yönetimi
 
-Cihazların çalışma ortamı ve güç yönetimi ile ilgili tablolar, bu başlık altında değerlendirilmiştir.
 
 #### 4.1 Çevresel Koşullar
 
@@ -73,7 +69,6 @@ Cihazların çalışma ortamı ve güç yönetimi ile ilgili tablolar, bu başl�
 
 ### 5. Garanti ve Sertifikalar
 
-Garanti Bilgileri ve Sertifika tablolarına dayalı olarak, cihazların garanti süreçleri ve sertifikasyon bilgileri yönetilmelidir.
 
 #### 5.1 Garanti Yönetimi
 
@@ -87,7 +82,6 @@ Garanti Bilgileri ve Sertifika tablolarına dayalı olarak, cihazların garanti 
 
 ### 6. Test ve Yükseltmeler
 
-Cihazların test süreçleri ve donanım/yazılım yükseltmeleri, proje gereksinimleri açısından önemli bir yere sahiptir.
 
 #### 6.1 Test Yönetimi
 
@@ -103,6 +97,6 @@ Cihazların test süreçleri ve donanım/yazılım yükseltmeleri, proje gereksi
 
 ## E-R DİYAGRAMI
 
-![E-R Diyagramı](images/e-r3.png)
+![E-R Diyagramı](images/E-R.png)
 
 
