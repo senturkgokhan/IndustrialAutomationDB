@@ -142,6 +142,77 @@ Cihazlarla ilgili geliştirilen çözümleri içerir:
 
 ---
 
+# Veritabanı 1-N (Birçok) İlişkileri
+
+## Categories - DeviceSeries
+- **İlişki Türü**: 1-N (Bir kategori birden fazla cihaz serisi içerebilir)
+- **Açıklama**: Her kategori, birden fazla cihaz serisini kapsar.
+- **Anahtarlar**: 
+  - Categories (1) → DeviceSeries (N)
+
+---
+
+## DeviceSeries - Devices
+- **İlişki Türü**: 1-N (Bir cihaz serisi birden fazla cihaz içerebilir)
+- **Açıklama**: Her cihaz serisi, birden fazla cihazı kapsar.
+- **Anahtarlar**: 
+  - DeviceSeries (1) → Devices (N)
+
+---
+
+## Users - Orders
+- **İlişki Türü**: 1-N (Bir kullanıcı birden fazla sipariş verebilir)
+- **Açıklama**: Her kullanıcı, bir veya daha fazla sipariş oluşturabilir.
+- **Anahtarlar**: 
+  - Users (1) → Orders (N)
+
+---
+
+## Users - CustomerSupport
+- **İlişki Türü**: 1-N (Bir kullanıcı birden fazla destek talebi oluşturabilir)
+- **Açıklama**: Her kullanıcı, bir veya daha fazla destek talebi oluşturabilir.
+- **Anahtarlar**: 
+  - Users (1) → CustomerSupport (N)
+
+---
+
+## Orders - OrderDetails
+- **İlişki Türü**: 1-N (Bir sipariş birden fazla sipariş detayı içerebilir)
+- **Açıklama**: Bir sipariş, bir veya daha fazla cihaz detayını içerebilir.
+- **Anahtarlar**: 
+  - Orders (1) → OrderDetails (N)
+
+---
+
+## Devices - OrderDetails
+- **İlişki Türü**: 1-N (Bir cihaz birden fazla sipariş detayında yer alabilir)
+- **Açıklama**: Her cihaz, birden fazla sipariş detayında yer alabilir.
+- **Anahtarlar**: 
+  - Devices (1) → OrderDetails (N)
+
+---
+
+## CustomerSupport - CustomerSupportTechnician
+- **İlişki Türü**: 1-N (Bir destek talebi birden fazla teknisyen tarafından işlenebilir)
+- **Açıklama**: Bir destek talebi, bir veya daha fazla teknisyen tarafından ele alınabilir.
+- **Anahtarlar**: 
+  - CustomerSupport (1) → CustomerSupportTechnician (N)
+
+---
+
+# Veritabanı N-N (Çoktan Çoğa) İlişkisi
+
+## Devices ↔ Orders (OrderDetails aracılığıyla)
+- **Açıklama**: Bir cihaz birden fazla siparişte yer alabilir ve bir sipariş birden fazla cihazı içerebilir.
+- **İlişki Türü**: N-N (Çoktan Çoğa)
+  - **Detaylar**: 
+    - Bir cihaz, birden fazla siparişin parçası olabilir (örneğin, birden fazla müşteri aynı cihazı sipariş edebilir).
+    - Bir sipariş, birden fazla cihazı içerebilir (örneğin, bir müşteri tek bir siparişte birden fazla cihaz alabilir).
+  - Bu ilişki, **OrderDetails** tablosu aracılığıyla yönetilir. OrderDetails tablosu, Devices ve Orders tablolarını birleştiren bir köprü (junction) tablo görevi görür.
+- **Anahtarlar**:
+  - Devices (N) → OrderDetails → Orders (N)
+
+
 ## E-R DİYAGRAMI
 
 ![E-R Diyagramı](https://github.com/user-attachments/assets/743ed616-130e-4b7c-9b1d-2a8b69ac90f2)
