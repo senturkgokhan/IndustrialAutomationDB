@@ -215,7 +215,7 @@ Cihazlarla ilgili geliştirilen çözümleri içerir:
 
 ## E-R DİYAGRAMI
 
-![E-R Diyagramı](https://github.com/user-attachments/assets/f99ae318-4229-4994-a98a-eb4f395dbd97)
+![E-R Diyagramı](https://github.com/user-attachments/assets/1be05433-d12a-4371-a963-08778b671849)
 
 
 
