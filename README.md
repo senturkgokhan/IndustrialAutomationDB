@@ -1,7 +1,3 @@
-# BMÜ329 Veri Tabanı Sistemleri Dersi Dönem Projesi Gereksinimleri ve E-R Diyagramı
-
-## Proje Başlığı: Endüstriyel Otomasyon ve Haberleşme Ürünleri Yönetim Sistemi
-
 **Proje Ekibindeki Kişiler:**
 - **220260020** - Muhammed Salih Üstün
 - **220260054** - Emre Gülek
